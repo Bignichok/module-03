@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main-nav {
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 102px;
+}
+
+.main-menu-item {
+  display: inline-block;
+}
+
+.main-menu-item:nth-child(1) {
+  margin-right: 120px;
+}
+.main-menu-item:nth-child(2) {
+  margin-right: 102px;
+}
+.main-menu-item:nth-child(3) {
+  margin-right: 96px;
+}
+.navigation {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: #03a9f4;
+}
+
+body {
+  font-family: "PlayfairDisplay", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container {
+  width: 902px;
+  margin: 0 auto;
+}
+
+.navigation a {
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+/* article-list */
+.article-section article:nth-child(odd) {
+  margin-right: 60px;
+}
+.article-section article:nth-child(even) {
+  margin-left: -4px;
+}
+
+.article-list:not(:last-child) {
+  margin-bottom: 102px;
+}
+.lifestyle,
+.photodairy {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 130px;
+}
+.article-list {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  width: 420px;
+}
+.article-section article:nth-last-child(-n + 2) {
+  margin-bottom: 50px;
+}
+
+.article-list-item {
+  list-style: none;
+}
+.article-image {
+  margin: 0;
+  padding-bottom: 26px;
+}
+.article-title {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.image-signature {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #c7c1b6;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.article-title {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  padding-bottom: 32px;
+}
+.text-content {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  padding-bottom: 71px;
+}
+
+.load-more-button {
+  margin: 0px auto;
+  padding: 22px 34px;
+  display: block;
+  border: 1px solid #626262;
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  cursor: pointer;
+}
