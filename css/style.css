@@ -17,11 +17,11 @@ body {
 
 .main-nav {
   text-align: center;
-  padding-top: 78px;
-  padding-bottom: 102px;
+  margin-top: 78px;
+  margin-bottom: 102px;
 }
 
-.list-link {
+.link {
   display: inline-block;
   color: #626262;
   text-transform: uppercase;
@@ -29,8 +29,8 @@ body {
   line-height: 24px;
 }
 
-.list-link:hover,
-.list-link:focus {
+.list:hover,
+.list:focus {
   color: #03a9f4;
 }
 
@@ -55,7 +55,6 @@ body {
   margin: 0 auto;
 }
 
-/* article-list */
 .article-section article:nth-child(odd) {
   margin-right: 56px;
 }
