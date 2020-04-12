@@ -8,23 +8,39 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .main-nav {
   text-align: center;
   padding-top: 78px;
   padding-bottom: 102px;
 }
 
-.main-menu-item {
+.list-link {
   display: inline-block;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
 }
 
-.main-menu-item:nth-child(1) {
+.list-link:hover,
+.list-link:focus {
+  color: #03a9f4;
+}
+
+.first-link {
   margin-right: 120px;
 }
-.main-menu-item:nth-child(2) {
+.second-link {
   margin-right: 102px;
 }
-.main-menu-item:nth-child(3) {
+.third-link {
   margin-right: 96px;
 }
 .navigation {
@@ -34,43 +50,20 @@ html {
   list-style: none;
 }
 
-.navigation a:hover,
-.navigation a:focus {
-  color: #03a9f4;
-}
-
-body {
-  font-family: "PlayfairDisplay", serif;
-  color: #626262;
-  font-size: 14px;
-  line-height: 24px;
-}
-
 .container {
   width: 902px;
   margin: 0 auto;
 }
 
-.navigation a {
-  color: #626262;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 24px;
-}
-
 /* article-list */
 .article-section article:nth-child(odd) {
-  margin-right: 60px;
-}
-.article-section article:nth-child(even) {
-  margin-left: -4px;
+  margin-right: 56px;
 }
 
 .article-list:not(:last-child) {
   margin-bottom: 102px;
 }
-.lifestyle,
-.photodairy {
+.article {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -91,13 +84,7 @@ body {
 }
 .article-image {
   margin: 0;
-  padding-bottom: 26px;
-}
-.article-title {
-  font-size: 30px;
-  line-height: 36px;
-  margin: 0;
-  padding-bottom: 32px;
+  margin-bottom: 26px;
 }
 
 .image-signature {
@@ -106,14 +93,14 @@ body {
   font-weight: 300;
   color: #c7c1b6;
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .article-title {
   font-size: 30px;
   line-height: 36px;
   margin: 0;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 .text-content {
   margin: 0;
