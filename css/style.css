@@ -29,8 +29,8 @@ body {
   line-height: 24px;
 }
 
-.list:hover,
-.list:focus {
+.link:hover,
+.link:focus {
   color: #03a9f4;
 }
 
@@ -78,9 +78,6 @@ body {
   margin-bottom: 50px;
 }
 
-.article-list-item {
-  list-style: none;
-}
 .article-image {
   margin: 0;
   margin-bottom: 26px;
@@ -121,4 +118,8 @@ body {
   font-family: "Playfair Display", serif;
   color: #626262;
   cursor: pointer;
+}
+.load-more-button:hover,
+.load-more-button:focus {
+  color: #03a9f4;
 }
